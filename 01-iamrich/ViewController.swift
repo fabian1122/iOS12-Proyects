@@ -31,7 +31,7 @@ class ViewController: UIViewController {
                                         """, preferredStyle: UIAlertController.Style.actionSheet)
         
         let action = UIAlertAction(title: "Ok", style: .default){(action) in
-            print("press ok")
+            print("press buttonx ok")
         }
         
         
