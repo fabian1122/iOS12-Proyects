@@ -1,0 +1,33 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# Nuevo
+
+Polls is a simple API allowing consumers to view polls and vote in them.
+
+## Questions Collection [/question1s]
+
+### List All Questions [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+               
+                "Data": [
+                    {
+                        "CategoryName" : "Categoria 1",
+                        "CityName" : "Ecuador",
+                    }, {
+                        "CategoryName" : "Categoria 2",
+                        "CityName" : "Colombia",
+                    }, {
+                        "CategoryName" : "Categoria 3",
+                        "CityName" : "Peru",
+                    }, {
+                        "CategoryName" : "Categoria 4",
+                        "CityName" : "Panama",
+                    }
+                ]
+            }
+        ]
